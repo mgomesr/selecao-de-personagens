@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Digimon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="./src/css/reset.css" rel="stylesheet" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+    <link href="./src/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/digimon/logo2.png" alt="Logo Digimon" />
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">SELECIONE UM PERSONAGEM</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="tai">
+                    <img src="./src/imagens/digimon/Tai Card.png" alt="Personagem Tai" />
+                </li>
+                <li class="personagem" id="matt">
+                    <img src="./src/imagens/digimon/Matt Card.jpg" alt="Personagem Matt" />
+                </li>
+                <li class="personagem" id="sora">
+                    <img src="./src/imagens/digimon/Sora Card.png" alt="Personagem Sora" />
+                </li>
+                <li class="personagem" id="izzy">
+                    <img src="./src/imagens/digimon/Izzy Card.png" alt="Personagem Izzy" />
+                </li>
+                <li class="personagem" id="mimi">
+                    <img src="./src/imagens/digimon/Mimi Card.png" alt="Personagem Mimi" />
+                </li>
+                <li class="personagem" id="joe">
+                    <img src="./src/imagens/digimon/Joe Card.png" alt="Personagem Joe" />
+                </li>
+                <li class="personagem" id="tk">
+                    <img src="./src/imagens/digimon/Tk Card.png" alt="Personagem TK" />
+                </li>
+                <li class="personagem" id="kari">
+                    <img src="./src/imagens/digimon/Kari Card.png" alt="Personagem Kari" />
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/digimon/Tai Grande.webp" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">TAI E AGUMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Líder dos DigiEscolhidos, Taichi Kamiya
+                    aprende a lidar com sua personalidade impulsiva para ajudar o grupo. Seu parceiro é Agumon e seu
+                    brasão o da Coragem.</p>
+            </div>
+            <!-- <img class="personagem-grande" src="./src/imagens/digimon/Matt Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">MATT E GABUMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Yamato Ishida é irmão de TK, parceiro de
+                    Gabumon e representa a amizade. Entretanto, Matt demora a demonstrar a característica em Digimon
+                    Adventure, já que passa muito tempo preocupado com a segurança do irmão.</p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/Sora Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">SORA E BIYOMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Sora Takenouchi tem o brasão do amor e é
+                    praticamente uma figura materna para seus amigos. Isso porque age como mediadora em discussões entre
+                    Tai e Matt e mantém o grupo unido com a ajuda de Biyomon.</p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/Izzy Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">IZZY E TENTOMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Representando o conhecimento, Koshiro Izumi é
+                    o especialista em tecnologia do grupo. Ao lado de Tentomon, ele usa sua curiosidade para encontrar
+                    respostas que ajudam o grupo a salvar o mundo.</p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/Mimi Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">MIMI E PALMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Mimi Tachikawa é a segunda garota do grupo,
+                    filha de pais ricos. Por causa disso, ela pode agir como uma menina mimada, mas usa sua sinceridade
+                    e a força de Palmon para ajudar o grupo.</p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/Joe Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">JOE E GOMAMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">O mais velho entre os DigiEscolhidos, Joe Kido
+                    tem o braão da confiança. Juntamente com Gomamon, ele sente o peso da responsabilidade sobre o
+                    grupo, mas sofre com a indecisão para fazer escolhas, ao longo dos episódios de Digimon Adventure.
+                </p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/TK Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">TK E PATAMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Takeru Takaishi é o irmão mais novo de Matt.
+                    Diferente dos outros, ele não estuda na mesma escola, uma vez que vive com a mãe, divorciada. No
+                    Mundo Digital, seu parceiro é Patamon e seu brasão da paz.</p>
+            </div>
+            <img class="personagem-grande" src="./src/imagens/digimon/Kari Grande.png" alt="Personagem Selecionado" />
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">KARI E GATOMON</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Kari Kamiya é a oitava DigiEscolhida e irmã de
+                    Tai. A princípio, ela não vai para o Mundo Digital com o grupo, mas acaba se unido a eles e a seu
+                    parceiro Gatomon. Se brasão é o da luz.</p> -->
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
