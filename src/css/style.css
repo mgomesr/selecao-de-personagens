@@ -20,6 +20,7 @@ body::before{
 .cabecalho{
     display: flex;
     justify-content: center;
+    height: 152px;
 }
 
 .selecao-de-personagens{
@@ -53,6 +54,11 @@ body::before{
     border-bottom: 2px solid #e1f95d;
     width: 100%;
     text-align: center;
+}
+
+.lista-de-personagens
+.personagem{
+    border-bottom: 4px solid #e1f95d;
 }
 
 .lista-de-personagens
