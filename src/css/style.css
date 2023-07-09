@@ -20,7 +20,6 @@ body::before{
 .cabecalho{
     display: flex;
     justify-content: center;
-    height: 122px;
 }
 
 .selecao-de-personagens{
@@ -51,7 +50,7 @@ body::before{
 .personagens .titulo{
     font-size: 20px;
     letter-spacing: 4px;
-    border-bottom: 2px solid #47f4ff;
+    border-bottom: 2px solid #e1f95d;
     width: 100%;
     text-align: center;
 }
@@ -65,7 +64,7 @@ body::before{
 
 .lista-de-personagens
 .personagem.selecionado{
-    box-shadow: 0px 0px 24px 5px #e1f95d;
+    box-shadow: 0px 0px 25px 3px #e1f95d;
     border-radius: 10px;
 }
 
@@ -76,13 +75,13 @@ body::before{
 
 .personagem-selecionado
 .personagem-grande{
-    width: 430px;
-    height: 430px;
+    width: 400px;
+    height: 400px;
 }
 
 .personagem-selecionado
 .nome-personagem{
-    border-bottom: 2px solid #47f4ff;
+    border-bottom: 2px solid #e1f95d;
     letter-spacing: 4px;
 }
 
